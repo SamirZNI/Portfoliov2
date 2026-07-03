@@ -222,6 +222,8 @@ footer { background:var(--dark); color:rgba(255,255,255,0.3); padding:22px 60px;
 .doc-btn.site:hover { background:var(--dark); border-color:var(--dark); }
 .doc-btn.disabled { opacity:0.45; cursor:default; pointer-events:none; }
 
+
+/* Vue simple par défaut : on cache le détaillé */
 /* ── Filtres réalisations ── */
 .real-filters { display:flex; gap:8px; margin-bottom:32px; flex-wrap:wrap; }
 .real-filter {
